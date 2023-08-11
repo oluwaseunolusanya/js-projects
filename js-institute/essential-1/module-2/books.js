@@ -25,11 +25,16 @@ let newbook = {
 };
 books.push(newbook);
 
-console.log(books.length);
+/*console.log(books.length);
 for(let book of books){
     console.log(book.title);
 };
+*/
 
 let favourites = books.slice(-2);
+/*
 console.log(favourites.length);
 console.log(favourites);
+*/
+books.shift()
+console.log(books);
