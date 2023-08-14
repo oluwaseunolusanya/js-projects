@@ -37,4 +37,4 @@ console.log(favourites.length);
 console.log(favourites);
 */
 books.shift()
-console.log(books);
+//console.log(books);
